@@ -13,25 +13,8 @@
   padding: 20px;
   border: 1px solid #ccc;
   margin: 5px;
-}
-.TravelToor {
-  width: 147px;
   height: 38px;
-  top: 60px;
-  left: 106px;
-
-  font-family: Inter;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 38px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.custom-home {
-  width: 68px;
-  height: 33px;
-  top: 63px;
-  left: 618px;
+  padding-top: 60px;
 
   font-family: Inter;
   font-size: 24px;
@@ -39,4 +22,25 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
+}
+.TravelToor {
+  /* width: 147px;
+  height: 38px;
+  top: 60px;
+  left: 106px; */
+  width: 147px;
+  padding-left: 106px;
+}
+.custom-home {
+  width: 68px;
+  padding-left: 618px;
+}
+.custom-line {
+  position: relative;
+  text-align: right;
+  width: 26px;
+  /* padding-right: 0%; */
+}
+.custom-sreach {
+  /* padding-right: 5%; */
 }
