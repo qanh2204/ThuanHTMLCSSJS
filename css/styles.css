@@ -1,0 +1,42 @@
+.layout {
+  width: 1728px;
+  height: 6800px;
+  top: 30px;
+  left: 66px;
+}
+
+.container {
+  display: flex;
+}
+.header-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+.TravelToor {
+  width: 147px;
+  height: 38px;
+  top: 60px;
+  left: 106px;
+
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.custom-home {
+  width: 68px;
+  height: 33px;
+  top: 63px;
+  left: 618px;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
