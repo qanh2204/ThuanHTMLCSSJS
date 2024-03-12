@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hình SVG Chồng Lên Nhau</title>
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+        <!-- Hình nền -->
+        <rect width="100%" height="100%" fill="lightgray" />
+
+        <!-- Nhóm hình chồng lên -->
+        <g>
+            <!-- Hình 1 -->
+            <circle cx="100" cy="100" r="40" fill="red" />
+
+            <!-- Hình 2 -->
+            <rect x="150" y="150" width="100" height="100" fill="blue" />
+
+            <!-- Hình 3 -->
+            <polygon points="250,250 300,200 350,250" fill="green" />
+
+            <!-- Thêm các hình khác nếu cần -->
+        </g>
+    </svg>
+
+</body>
+
+</html>
