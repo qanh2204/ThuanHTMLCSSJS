@@ -58,6 +58,63 @@
 .memory-box {
   width: 584px;
   height: 411px;
-  top: 310px;
-  left: 121px;
+  /* padding-top: 210px; */
+  padding-left: 121px;
+  /* border: 1px solid #ccc; */
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 137px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.custom-img-climping {
+  padding-left: 197px;
+  row-gap: inherit;
+}
+.img-climping {
+  width: 305px;
+  height: 427px;
+
+  border-radius: 30px;
+}
+.custom-svg-flight1 {
+  padding-left: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.flight1-svg-background {
+  width: 213.11px;
+  height: 139.63px;
+
+  border: 2px;
+  padding-top: 45px;
+  background-image: url(../svg/flight1.svg);
+  background-size: cover;
+}
+.custom-svg-plane1 {
+}
+.plane1-svg-background {
+  width: 37.95px;
+  height: 37.95px;
+  background-image: url(../svg/plane1.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.custom-container {
+  height: 50px;
+  flex-direction: row;
+}
+.img-camel {
+  width: 409px;
+  height: 612px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.img-lake {
+  width: 305px;
+  height: 399px;
+  padding-top: 20px;
 }
