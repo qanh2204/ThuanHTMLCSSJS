@@ -23,6 +23,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.custom-ul {
+  list-style-type: none;
+  padding: 0;
+}
 .TravelToor {
   /* width: 147px;
   height: 38px;
@@ -33,13 +37,13 @@
 }
 .custom-home {
   width: 68px;
-  padding-left: 25%;
+  padding-left: 500px;
 }
 .custom-line {
   position: relative;
   text-align: right;
   width: 26px;
-  padding-left: 10%;
+  padding-left: 300px;
 }
 .custom-sreach {
   /* padding-right: 5%; */
@@ -55,12 +59,14 @@
 .img-line1 {
   width: 17px;
 }
+.group-memory {
+  padding-left: 121px;
+  padding-right: 174px;
+}
 .memory-box {
   width: 584px;
   height: 411px;
-  /* padding-top: 210px; */
-  padding-left: 121px;
-  /* border: 1px solid #ccc; */
+
   font-family: Inter;
   font-size: 100px;
   font-weight: 700;
@@ -68,9 +74,19 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.memory-text {
+  width: 606px;
+  height: 99px;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 .custom-img-climping {
-  padding-left: 197px;
-  row-gap: inherit;
+  /* row-gap: inherit; */
 }
 .img-climping {
   width: 305px;
@@ -117,4 +133,17 @@
   width: 305px;
   height: 399px;
   padding-top: 20px;
+}
+.group-img {
+}
+
+.background {
+  width: 796px;
+  height: 152px;
+  background-image: url(../svg/Rectangle1.svg); /* Đặt hình nền */
+  background-size: cover;
+}
+.location-img {
+  width: 99px;
+  height: 33px;
 }
