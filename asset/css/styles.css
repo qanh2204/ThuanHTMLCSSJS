@@ -9,17 +9,13 @@
   display: flex;
 }
 .header-box {
-  /* flex: 1; */
   padding: 20px;
-  /* border: 1px solid #ccc; */
   margin: 5px;
-  /* height: 38px; */
   padding-top: 60px;
 
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  /* line-height: 33px; */
   letter-spacing: 0em;
   text-align: left;
 }
@@ -28,10 +24,6 @@
   padding: 0;
 }
 .TravelToor {
-  /* width: 147px;
-  height: 38px;
-  top: 60px;
-  left: 106px; */
   width: 147px;
   padding-left: 106px;
 }
@@ -46,7 +38,6 @@
   padding-left: 300px;
 }
 .custom-sreach {
-  /* padding-right: 5%; */
 }
 .img-sreach {
   width: 24px;
@@ -84,9 +75,9 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
+  padding-bottom: 42px;
 }
 .custom-img-climping {
-  /* row-gap: inherit; */
 }
 .img-climping {
   width: 305px;
@@ -141,7 +132,7 @@
   position: absolute;
   width: 796px;
   height: 152px;
-  background-image: url(../svg/Rectangle1.svg);
+  /* background-image: url(../svg/Rectangle1.svg); */
   background-size: cover;
 }
 .location-img {
@@ -159,4 +150,204 @@
   display: flex;
   /* flex-direction: column; */
   align-items: flex-start;
+}
+.custmo-select {
+  border: 0px solid;
+  align-items: left;
+}
+.custom-img-location {
+  position: absolute;
+  width: 796px;
+  height: 152px;
+  justify-content: space-around;
+  align-items: center;
+
+  box-shadow: 0px 0px 91.9000015258789px -28px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 42px;
+  backdrop-filter: blur(10.45px);
+}
+.group-plan-trip {
+  padding-left: 121px;
+  margin-top: 139px;
+  display: flex;
+}
+.plan-trip-img-video {
+  position: absolute;
+  width: 525px;
+  height: 788px;
+
+  border-radius: 40px;
+  padding-top: 39px;
+}
+.plan-trip-video-backgroup {
+  width: 533px;
+  height: 788px;
+  background: rgba(235, 235, 235, 0.75);
+  border-radius: 40px;
+}
+.plan-trip-custom-img-video {
+  position: absolute;
+}
+.empty-div {
+  /* position: absolute; */
+  width: 40px;
+  height: 788px;
+}
+.backgroup-guild {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 329px;
+  height: 117px;
+
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8.05px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 25px;
+  margin-left: 231px;
+}
+.plan-trip-backgroup-guild-text {
+  /* Professional Tour Guide */
+
+  /* position: absolute; */
+  width: 158px;
+  height: 57px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 114%;
+  /* or 27px */
+
+  color: #ffffff;
+  padding-left: 30px;
+}
+.plan-trip-img-book-guild {
+  /* user-guide 1 */
+
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin: 38px;
+}
+.group-plan-trip-backgroup-guild {
+  display: flex;
+  align-items: flex-end;
+}
+.ellipse-svg {
+  /* Ellipse 2 */
+
+  width: 75px;
+  height: 75px;
+  background-image: url(../svg/ellipse.svg);
+  margin: 21px;
+}
+.why-us {
+  /* display: flex; */
+  padding-left: 194px;
+  padding-top: 189px;
+}
+.why-us h5 {
+  /* Way Choose Us? */
+
+  position: absolute;
+  width: 225px;
+  height: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 137%;
+  /* or 38px */
+
+  color: #ffa03f;
+}
+.why-us h2 {
+  /* Plan Your Trip With Us */
+
+  width: 630px;
+  height: 79px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 137%;
+  /* or 79px */
+
+  color: #000000;
+  padding-top: 30px;
+}
+.why-us-icon-and-text {
+  display: flex;
+}
+.why-us-check-svg {
+  height: 176px;
+  width: 176px;
+  background: url(../svg/why-us-check.svg);
+  margin-left: -56px;
+  /* Group 13 */
+
+  /* position: absolute; */
+}
+.why-us-caledate-svg {
+  height: 176px;
+  width: 176px;
+  background: url(../svg/why-us-caledate.svg);
+  margin-left: -56px;
+  /* Group 13 */
+
+  /* position: absolute; */
+}
+.why-us-map-svg {
+  height: 176px;
+  width: 176px;
+  background: url(../svg/why-us-map.svg);
+  margin-left: -56px;
+  /* Group 13 */
+
+  /* position: absolute; */
+}
+.why-us-text {
+  /* Group 12 */
+
+  /* position: absolute; */
+  width: 465px;
+  height: 66px;
+  padding-top: 30px;
+}
+.why-us-text h3 {
+  /* Best Price Guarantee */
+
+  /* position: absolute; */
+  width: 283px;
+  height: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 137%;
+  /* or 38px */
+
+  color: #000000;
+}
+.why-us-text p {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit */
+
+  /* position: absolute; */
+  width: 465px;
+  height: 25px;
+  margin-top: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137%;
+  /* identical to box height, or 25px */
+
+  color: rgba(0, 0, 0, 0.75);
 }
