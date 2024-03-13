@@ -351,3 +351,52 @@
 
   color: rgba(0, 0, 0, 0.75);
 }
+.famouns-text {
+  display: flex;
+  padding-top: 251px;
+  padding-left: 197px;
+}
+.famouns-text h5 {
+  /* Famous Dictation! */
+
+  width: 242px;
+  height: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 137%;
+  /* or 38px */
+
+  color: #ffa03f;
+}
+.famouns-text h2 {
+  /* Our Popular Dictation's */
+  position: absolute;
+  width: 654px;
+  height: 66px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 114%;
+  /* or 66px */
+
+  color: #000000;
+  padding-top: 40px;
+}
+.famouns-text strong {
+  color: #ffa03f;
+}
+.famouns-plant-svg {
+  /* Group 29 */
+
+  position: absolute;
+  width: 384.2px;
+  height: 362.91px;
+  left: 1117px;
+  top: 2038px;
+  background-image: url(../svg/famouns-plant.svg);
+}
